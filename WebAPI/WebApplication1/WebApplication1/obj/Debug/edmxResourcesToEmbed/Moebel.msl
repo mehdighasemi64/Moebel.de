@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MoebelModelStoreContainer" CdmEntityContainer="MoebelEntities">
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="MoebelModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Temperatures">
+      <EntityTypeMapping TypeName="MoebelModel.Temperature">
+        <MappingFragment StoreEntitySet="Temperature">
+          <ScalarProperty Name="Temperature1" ColumnName="Temperature" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="TemperatureId" ColumnName="TemperatureId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
