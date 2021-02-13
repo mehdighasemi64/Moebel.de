@@ -32,6 +32,7 @@ Acceptance Criteria
 Using Typescript is mandatory.
 Test coverage should be above 90%.
 The app should be working and buildable with no errors.
+
 ----------------------------------------------------------------------------------------------------------------------
 
 How to Run:
